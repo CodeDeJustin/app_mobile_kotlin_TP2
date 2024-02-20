@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">M14-TP2-JA</string>
+
+    <!-- LoginActivity Strings -->
+    <string name="login_username">Nom d\'utilisateur</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_login">Se connecter</string>
+    <string name="login_signup">S\'inscrire</string>
+
+    <!-- MainActivity Strings -->
+    <string name="bonjour_utilisateur">Bonjour, %1$s</string>
+    <string name="aurevoir_utilisateur">Aurevoir, %1$s</string>
+    <string name="main_chgmdp">Changer le mot de passe</string>
+    <string name="main_deconnecter">Se déconnecter</string>
+    <string name="description_chgmdp">Bouton pour changer le mot de passe</string>
+    <string name="description_deconnecter">Bouton pour se déconnecter</string>
+
+    <!-- InscriptionActivity Strings -->
+    <string name="inscription_nom_utilisateur">Nom d\'utilisateur</string>
+    <string name="inscription_premon">Prénom</string>
+    <string name="inscription_nom">Nom</string>
+    <string name="inscription_courriel">Courriel</string>
+    <string name="inscription_mdp">Entrez votre mot de passe</string>
+    <string name="inscription_confirmer_mdp">Confirmer votre mot de passe</string>
+    <string name="inscr_inscrire">Confirmer votre inscription</string>
+    <string name="annuler_votre_inscription">Annuler votre inscription</string>
+
+    <!-- ChangerMDPActivity Strings -->
+    <string name="changer_ancien_mdp">Entrez votre ancien mot de passe</string>
+    <string name="changer_nouveau_mdp">Entrez votre nouveau mot de passe</string>
+    <string name="changer_confirmer_nouveau_mdp">Confirmer le nouveau mot de passe</string>
+    <string name="changer_changerMDP">Confirmer le changement</string>
+    <string name="changer_changerMDPAnnuler">Annuler le changement</string>
+
+    <!-- RecyclerView Strings -->
+    <string name="fruit_name">Nom du fruit : %1$s</string>
+    <string name="fruit_family">Famille : %1$s</string>
+    <string name="rv_api_texte">Texte de démarrage</string>
+    <string name="fruit_order">Order: %s</string>
+    <string name="fruit_genus">Genus: %s</string>
+    <string name="fruit_nutrition">Nutrition: %s</string>
+
+</resources>

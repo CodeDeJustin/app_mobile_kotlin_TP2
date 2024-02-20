@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etInscrNomUtilisateur"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_nom_utilisateur"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etInscrPrenom"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_premon"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrNomUtilisateur" />
+
+    <EditText
+        android:id="@+id/etInscrNom"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_nom"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrPrenom" />
+
+    <EditText
+        android:id="@+id/etInscrCourriel"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_courriel"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrNom" />
+
+    <EditText
+        android:id="@+id/etInscrMDP"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_mdp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrCourriel" />
+
+
+    <EditText
+        android:id="@+id/etInscrConfirmMDP"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:hint="@string/inscription_confirmer_mdp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrMDP" />
+
+    <Button
+        android:id="@+id/btnInscrire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/inscr_inscrire"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etInscrConfirmMDP" />
+
+    <Button
+        android:id="@+id/btnAnnulerInscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/annuler_votre_inscription"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnInscrire" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

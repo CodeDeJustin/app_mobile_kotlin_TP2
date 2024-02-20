@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etOldPassword"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="@string/changer_ancien_mdp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="@string/changer_nouveau_mdp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etOldPassword" />
+
+    <EditText
+        android:id="@+id/etConfirmNewPassword"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="@string/changer_confirmer_nouveau_mdp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNewPassword" />
+
+    <Button
+        android:id="@+id/btnChangerMDP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/changer_changerMDP"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etConfirmNewPassword" />
+
+    <Button
+        android:id="@+id/btnChangerMDPAnnuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/changer_changerMDPAnnuler"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChangerMDP" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
