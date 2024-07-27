@@ -1,0 +1,8 @@
+*.kt linguist-language=Kotlin
+*.java linguist-language=Java
+*.xml linguist-language=XML
+*.gradle linguist-language=Groovy
+*.pro linguist-language=Prolog
+*.md linguist-language=Markdown
+*.properties linguist-language=Java
+*.json linguist-language=JSON
