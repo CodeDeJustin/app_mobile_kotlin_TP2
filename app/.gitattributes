@@ -2,7 +2,8 @@
 *.java linguist-language=Java
 *.xml linguist-language=XML
 *.gradle linguist-language=Groovy
-*.pro linguist-language=Prolog
 *.md linguist-language=Markdown
+*.pro linguist-language=Prolog
 *.properties linguist-language=Java
 *.json linguist-language=JSON
+build.gradle linguist-detectable=false
