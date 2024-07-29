@@ -1,3 +1,4 @@
+# Les langages utilisés
 *.kt linguist-language=Kotlin
 *.java linguist-language=Java
 *.xml linguist-language=XML
@@ -6,4 +7,10 @@
 *.pro linguist-language=Prolog
 *.properties linguist-language=Java
 *.json linguist-language=JSON
+
+# Exclure certains fichiers de la détection linguistique
 build.gradle linguist-detectable=false
+settings.gradle linguist-detectable=false
+gradle-wrapper.properties linguist-detectable=false
+gradlew linguist-detectable=false
+gradlew.bat linguist-detectable=false
